@@ -21,4 +21,4 @@
 ### Topic 3: SQL and Snowflake
 [Access to Snowflake Workspace](https://app.snowflake.com/ffojzfh/wpa36811/)
 To visit Google you can just [Click me](https://www.google.com)
-![myfavimage](https://tse4.mm.bing.net/th/id/OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8?rs=1&pid=ImgDetMain)
+![myfavimage](https://m.media-amazon.com/images/M/MV5BODI4NzMyNjE0MF5BMl5BanBnXkFtZTgwMTcwNzI0MzE@._V1_FMjpg_UX1000_.jpg)
