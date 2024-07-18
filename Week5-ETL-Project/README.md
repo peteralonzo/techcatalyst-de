@@ -1,9 +1,9 @@
 # Peter Alonzo: Week 5 ETL Project
 
-### ETL Process Diagram
+### **ETL Process Diagram**
 ![ETL Process Diagram](images/ETL_Diagram.PNG)
 
-### Data Cleaning
+### **Data Cleaning**
 My solution architecture involved initially extracting all the raw data located in S3 and moving it to Databricks as Spark dataframes. In Databricks, I was able to transform the song/log data into a star schema:
 
 Fact Table: Song Plays \
@@ -18,10 +18,10 @@ spark.conf.set("fs.s3a.access.key", "<my_access_key>")
 spark.conf.set("fs.s3a.secret.key", "<my_secret_key>")
 ```
 
-### Data Validation
+### **Data Validation**
 To verify the accuracy of my data transformations, AWS Glue and AWS Athena can be used to read the partitioned data. Although this process didn't work due to Databricks exportation issues, this is a great way to verify results.
 
-### SQL Querying
+### **SQL Querying**
 Snowflake was used to query the result data and verify its accuracy. Here are the DDL scripts for the tables I created:
 
 #### Songs
