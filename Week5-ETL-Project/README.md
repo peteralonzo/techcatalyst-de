@@ -11,6 +11,13 @@ Dimension Tables: Songs, Users, Times, Artists
 
 This process involved selecting certain columns, transforming data types, and creating new columns to add more information to dimension tables. These five Spark dataframes were then loaded to S3 as partitioned/non-partitioned parquet files.
 
+To write, I needed to use the following cell with my AWS credentials (has been removed from dbc file):
+
+```spark
+spark.conf.set("fs.s3a.access.key", "<my_access_key>")
+spark.conf.set("fs.s3a.secret.key", "<my_secret_key>")
+```
+
 ### Data Validation
 To verify the accuracy of my data transformations, AWS Glue and AWS Athena can be used to read the partitioned data. Although this process didn't work due to Databricks exportation issues, this is a great way to verify results.
 
